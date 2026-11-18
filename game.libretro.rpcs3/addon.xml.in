@@ -5,6 +5,8 @@
 		provider-name="RPCS3 Team, WizzardSK">
 	<requires>
 		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.ps3.dualshock3" version="1.0.0"/>
+		<import addon="game.controller.ps4.dualshock4" version="1.0.0"/>
 	</requires>
 	<extension point="kodi.gameclient"
 			library_@PLATFORM@="@LIBRARY_FILENAME@">
@@ -21,5 +23,6 @@
 		<platform>@PLATFORM@</platform>
 		<source>https://github.com/kodi-game/game.libretro.rpcs3</source>
 		<summary lang="en_GB">Sony - PlayStation 3 (RPCS3)</summary>
+		<description lang="en_GB">A port of the RPCS3 PlayStation 3 emulator to libretro.[CR][CR]Needs the PS3 system software (PS3UPDAT.PUP) in the system directory. Save states are not supported.</description>
 	</extension>
 </addon>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<logicaltopology>
+	<port type="controller" id="1">
+		<accepts controller="game.controller.ps3.dualshock3"/>
+		<accepts controller="game.controller.ps4.dualshock4"/>
+	</port>
+	<port type="controller" id="2">
+		<accepts controller="game.controller.ps3.dualshock3"/>
+		<accepts controller="game.controller.ps4.dualshock4"/>
+	</port>
+	<port type="controller" id="3">
+		<accepts controller="game.controller.ps3.dualshock3"/>
+		<accepts controller="game.controller.ps4.dualshock4"/>
+	</port>
+	<port type="controller" id="4">
+		<accepts controller="game.controller.ps3.dualshock3"/>
+		<accepts controller="game.controller.ps4.dualshock4"/>
+	</port>
+	<port type="controller" id="5">
+		<accepts controller="game.controller.ps3.dualshock3"/>
+		<accepts controller="game.controller.ps4.dualshock4"/>
+	</port>
+	<port type="controller" id="6">
+		<accepts controller="game.controller.ps3.dualshock3"/>
+		<accepts controller="game.controller.ps4.dualshock4"/>
+	</port>
+	<port type="controller" id="7">
+		<accepts controller="game.controller.ps3.dualshock3"/>
+		<accepts controller="game.controller.ps4.dualshock4"/>
+	</port>
+</logicaltopology>
