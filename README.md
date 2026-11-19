@@ -2,7 +2,9 @@
 
 ### Description
 
+A port of the RPCS3 PlayStation 3 emulator to libretro.
 
+Needs the PS3 system software (PS3UPDAT.PUP) in the system directory. Save states are not supported.
 
 ### License
 
